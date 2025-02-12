@@ -3,15 +3,8 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
-navbar li a:hover{
-    color:black
-}
-navbar li a:hover::after{
-    background:black;
-    width: 30%;
-    height: 2px;
-    position: absolute;
-    bottom: -4px;
-    left: 20px;
-    content: "";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
