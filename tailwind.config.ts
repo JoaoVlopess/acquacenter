@@ -13,6 +13,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'piscina': "url('/img/tarde-de-verao-a-beira-da-piscina.jpg')",
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+      },
     },
   },
   plugins: [],
