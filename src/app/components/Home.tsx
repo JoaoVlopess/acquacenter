@@ -27,17 +27,17 @@ const Home = () => {
               >
                 <div className="flex flex-col items-center justify-center h-[78vh] w-screen">
                   <h1 
-                  className='text-4xl text-white font-montserrat font-bold uppercase'
+                  className='text-2xl md:text-4xl text-white font-montserrat font-bold uppercase'
                   >Deixaremos sua piscina <br/> com cara nova!
                   </h1>
 
                   <p 
-                  className='text-2xl text-gray-300 mt-5'
+                  className='text-xl md:text-2xl text-gray-300 mt-5'
                   >CONHEÇA TODOS OS NOSSOS SERVIÇOS
                   </p>
 
                   <button
-                  className='text-sm font-semibold bg-BlueCenter text-white px-4 py-3 rounded-2xl mt-5'
+                  className='text-sm font-semibold bg-BlueCenter text-white px-4 py-3 rounded-3xl mt-5 shadow-custom'
                   >ENTRE EM CONTATO
                   </button>
                 </div>

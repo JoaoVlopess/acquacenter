@@ -9,6 +9,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Produtos from "./components/Produtos";
+import Beneficios from "./components/Beneficios";
 
 
 const Page = () => {
@@ -16,6 +18,8 @@ const Page = () => {
     <div className="text-center">
       <Navbar/>
       <Home/>
+      <Produtos/>
+      <Beneficios/>
     </div>
   );
 }

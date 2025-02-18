@@ -10,8 +10,14 @@ export default {
     extend: {
       colors: {
         'BlueCenter' : '#186EDD',
+        'WhiteCenter' : '#F5F5F5',
+        'GrayCenter' : '#E9E9E9',
+        'TextProd' : '#8d8d8d',
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      boxShadow: {
+        'custom': '1px 4px 8px 1px rgba(0, 0, 0, 0.2)',
       },
       backgroundImage: {
         'piscina': "url('/img/tarde-de-verao-a-beira-da-piscina.jpg')",
