@@ -11,6 +11,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Produtos from "./components/Produtos";
 import Beneficios from "./components/Beneficios";
+import Nos from "./components/Nos";
+import Footer from "./components/Footer";
 
 
 const Page = () => {
@@ -20,6 +22,8 @@ const Page = () => {
       <Home/>
       <Produtos/>
       <Beneficios/>
+      <Nos/>
+      <Footer/>
     </div>
   );
 }

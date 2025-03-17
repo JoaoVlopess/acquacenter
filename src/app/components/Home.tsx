@@ -25,7 +25,9 @@ const Home = () => {
               <div className="h-full w-full"
                 style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
               >
-                <div className="flex flex-col items-center justify-center h-[78vh] w-screen">
+                <div 
+                className="flex flex-col items-center justify-center h-[78vh] w-screen"
+                >
                   <h1 
                   className='text-2xl md:text-4xl text-white font-montserrat font-bold uppercase'
                   >Deixaremos sua piscina <br/> com cara nova!
@@ -37,7 +39,7 @@ const Home = () => {
                   </p>
 
                   <button
-                  className='text-sm font-semibold bg-BlueCenter text-white px-4 py-3 rounded-3xl mt-5 shadow-custom'
+                  className='text-sm font-semibold bg-BlueCenter text-white px-4 py-3 rounded-3xl mt-5 shadow-custom transform hover:scale-110 transition-transform duration-800'
                   >ENTRE EM CONTATO
                   </button>
                 </div>

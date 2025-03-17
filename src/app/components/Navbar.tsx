@@ -23,12 +23,19 @@ const Navbar = () => {
       }, []);
 
     return (
-        <nav className="flex justify-between items-center bg-BlueCenter py-4 px-20 shadow-lg w-full">
-            <button onClick={handleToggleMenu} className="text-white block md:hidden text-[24px]">
+        <nav 
+        className="flex justify-between items-center fixed top-0 left-0 z-50 bg-BlueCenter py-4 px-20 shadow-lg w-full"
+        >
+            <button 
+            className="text-white block md:hidden text-[24px]"
+            onClick={handleToggleMenu}
+            >
                 <FontAwesomeIcon icon={menu ? faBars : faTimes} />
             </button>
             
-            <a href="" className=" relative text-white text-3xl sm:text-3xl font-montserrat hover:cursor-default whitespace-nowrap ml-5">
+            <a 
+            className=" relative text-white text-3xl sm:text-3xl font-montserrat hover:cursor-default whitespace-nowrap ml-5"
+            >
                 Acqua Center
             </a>
 
