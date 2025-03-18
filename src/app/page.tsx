@@ -17,7 +17,7 @@ import Footer from "./components/Footer";
 
 const Page = () => {
   return(
-    <div className="text-center">
+    <div className="text-center scroll-smooth">
       <Navbar/>
       <Home/>
       <Produtos/>

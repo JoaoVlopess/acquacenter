@@ -12,4 +12,8 @@
 }
 body {
     @apply font-montserrat;
+    scroll-behavior: smooth;
+}
+html {
+    scroll-behavior: smooth;
 }

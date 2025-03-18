@@ -9,7 +9,7 @@ const Home = () => {
   ]
 
   return (
-    <section className="overflow-hidden h-[78vh] ">
+    <section className="overflow-hidden h-[78vh] " id='home'>
 
       <Swiper
         slidesPerView={1}

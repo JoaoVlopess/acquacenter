@@ -35,7 +35,7 @@ const Beneficios = () => {
   ]
 
   return(
-    <section className="min-h-[90vh] bg-white flex flex-col">
+    <section className="min-h-[90vh] bg-white flex flex-col" id='beneficios'>
     <p className="text-lg md:text-xl text-black pt-10 uppercase"
     >Conheça os
     </p>

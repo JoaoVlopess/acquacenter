@@ -10,21 +10,23 @@ const Navbar = () => {
     }
 
     useEffect(() => {
+        if (typeof window === "undefined") return; 
+      
         const handleResize = () => {
           if (window.innerWidth >= 768) {
             setMenu(false);
           }
         };
       
-        handleResize();
-        window.addEventListener("resize", handleResize);
+        handleResize(); 
       
+        window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
       }, []);
 
     return (
         <nav 
-        className="flex justify-between items-center fixed top-0 left-0 z-50 bg-BlueCenter py-4 px-20 shadow-lg w-full"
+        className="flex justify-between items-center fixed top-0 left-0 z-50 bg-BlueCenter py-4 px-20 shadow-lg w-full scroll-smooth"
         >
             <button 
             className="text-white block md:hidden text-[24px]"
@@ -47,31 +49,31 @@ const Navbar = () => {
                             >
 
                     <li className="mb-7 md:mb-0">
-                        <a href="" 
+                        <a href="#home" 
                         className="relative px-5 ease-in-out hover:text-gray-300 after:content-[''] after:absolute after:left-[20px] after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-gray-300 after:transition-all after:duration-300 hover:after:w-[30%]"
                         >HOME
                         </a></li>
 
                     <li className="mb-7 md:mb-0">
-                        <a href="" 
+                        <a href="#produtos" 
                         className="relative px-5 ease-in-out hover:text-gray-300 after:content-[''] after:absolute after:left-[20px] after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-gray-300 after:transition-all after:duration-300 hover:after:w-[30%]"
                         >PRODUTOS
                         </a></li>
 
                     <li className="mb-7 md:mb-0"
-                    ><a href="" 
+                    ><a href="#beneficios" 
                     className="relative px-5 ease-in-out hover:text-gray-300 after:content-[''] after:absolute after:left-[20px] after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-gray-300 after:transition-all after:duration-300 hover:after:w-[30%]"
                     >BENEFÍCIOS
                     </a></li>
 
                     <li className="mb-7 md:mb-0">
-                        <a href="" 
+                        <a href="#nos" 
                         className="relative px-5 ease-in-out hover:text-gray-300 after:content-[''] after:absolute after:left-[20px] after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-gray-300 after:transition-all after:duration-300 hover:after:w-[30%] "
                         >NÓS
                         </a></li>
                         
                     <li className="md:mb-0">
-                        <a href="" 
+                        <a href="#contato" 
                         className="relative px-5 ease-in-out hover:text-gray-300 after:content-[''] after:absolute after:left-[20px] after:bottom-[-4px] after:w-0 after:h-[2px] after:bg-gray-300 after:transition-all after:duration-300 hover:after:w-[30%]  "
                         >CONTATO
                         </a></li>

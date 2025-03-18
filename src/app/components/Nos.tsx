@@ -4,14 +4,14 @@ import { faWhatsapp, faInstagram, faFacebook, } from "@fortawesome/free-brands-s
 
 const  Nos = () => {
   return(
-    <section className="min-h-[90vh] bg-WhiteCenter flex flex-col">
+    <section className="min-h-[90vh] bg-WhiteCenter flex flex-col " id="nos">
        <p className="text-lg md:text-xl text-black pt-10 uppercase">NOSSA LOJA</p>
         <h1 className="text-3xl md:text-5xl text-black font-montserrat mt-5 uppercase">
           QUEM SOMOS?
         </h1>
         
         <div 
-        className="w-[85%] block m-auto"py-12>
+        className="w-[85%] block m-auto">
           <div 
           className="float-none w-full  text-center md:w-1/2 md:float-left md:text-left">
             <div 
@@ -40,10 +40,10 @@ const  Nos = () => {
             </div>
           </div>
           <div 
-          className="float-none w-full pb-4 md:float-right md:w-1/2"
+          className="float-none w-full pb-12 md:pb-0 md:float-right md:w-1/2"
           >
             <img 
-            className="w-full h-auto shadow-2xs shadow-[0px_0px_8px_2px_rgba(0,0,0,0.4)]"
+            className="w-full  h-auto shadow-2xs shadow-[0px_0px_8px_2px_rgba(0,0,0,0.4)]"
             src="/img/ACQUAedit.jpg" 
             alt="" />
           </div>
