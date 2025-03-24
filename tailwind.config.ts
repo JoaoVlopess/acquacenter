@@ -22,6 +22,9 @@ export default {
       backgroundImage: {
         'piscina': "url('/img/tarde-de-verao-a-beira-da-piscina.jpg')",
       },
+      screens: {
+        '3xl': '1730px', 
+      },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
       },

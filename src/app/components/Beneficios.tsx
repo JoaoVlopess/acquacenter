@@ -58,7 +58,7 @@ const Beneficios = () => {
     {data.map((item, index) => (
         <SwiperSlide key={index} className="">
           <div 
-            className="flex flex-col  justify-self-center items-center border-2 rounded-xl border-BlueCenter h-[400px] sm:h-[390px] max-w-[300px] lg:max-w-[400px] xl:max-w-[500px] px-12 py-8 md:px-10 md:py-10 md:mx-2  md:min-h-[460px]  gap-y-4 "
+            className="flex flex-col  justify-self-center items-center border-2 rounded-xl border-BlueCenter h-[400px] sm:h-[390px] max-w-[300px] lg:max-w-[400px] 3xl:max-w-[500px] px-12 py-8 md:px-10 md:py-10 md:mx-2  md:min-h-[460px]  gap-y-4 "
             >
             <img 
               src={item.img} 
@@ -66,15 +66,15 @@ const Beneficios = () => {
               className="w-12 h-12 md:w-16 md:h-16 lg:h-18 lg:w-18" 
               />
             <h1 
-              className="font-bold text-[20px] sm:text-[21px] md:text-[21px] lg:text-[27px] 2xl:text-[30px]  my-3">
+              className="font-bold text-[20px] sm:text-[21px] md:text-[21px] lg:text-[27px] 3xl:text-[30px]  my-3">
                 {item.title}
             </h1>
             <span 
-              className="flex-grow flex text-[16px] sm:text-[17px] md:text-[16px] lg:text-[18px] 2xl:text-[20px]  text-center">
+              className="flex-grow flex text-[16px] sm:text-[17px] md:text-[16px] lg:text-[18px] 3xl:text-[22px]  text-center">
                 {item.text}
                 </span>
             <button 
-              className="text-[12px] sm:text-[13px] md:text-[12px] lg:text-[13px] font-semibold bg-BlueCenter text-white px-4 py-3 lg:px-6 lg:py-4 rounded-3xl shadow-custom transform hover:scale-110 transition-transform duration-800"
+              className="text-[12px] sm:text-[13px] md:text-[12px] 3xl:text-[13px] font-semibold bg-BlueCenter text-white px-4 py-3 lg:px-6 lg:py-4 rounded-3xl shadow-custom transform hover:scale-110 transition-transform duration-800"
               >ENTRE EM CONTATO
             </button>
           </div>

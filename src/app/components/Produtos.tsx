@@ -47,13 +47,13 @@ const Produtos = () => {
                         className="flex justify-center items-center flex-col bg-GrayCenter rounded-md flex-1 p-6 px-9 min-h-36 transform hover:scale-110 transition-transform duration-800"
                     >
                         <img src={servico.img} alt={servico.titulo} className="w-9 h-9" />
-                        <h1 className="font-bold text-xl 2xl:text-2xl my-4">{servico.titulo}</h1>
-                        <p className="text-base text-TextProd 2xl:text-lg">{servico.descricao}</p>
+                        <h1 className="font-bold text-xl 3xl:text-2xl my-4">{servico.titulo}</h1>
+                        <p className="text-base text-TextProd 3xl:text-xl">{servico.descricao}</p>
                     </div>
                 ))}
             </div>
 
-            <button className="text-sm lg:text-lg font-semibold bg-BlueCenter text-white rounded-3xl px-4 py-3 max-w-15 self-center justify-self-center mb-6 shadow-custom transform hover:scale-110 transition-transform duration-800">
+            <button className="text-sm 3xl:text-base font-semibold bg-BlueCenter text-white rounded-3xl px-4 py-3 max-w-15 self-center justify-self-center mb-6 shadow-custom transform hover:scale-110 transition-transform duration-800">
                 ENTRE EM CONTATO
             </button>
         </section>
