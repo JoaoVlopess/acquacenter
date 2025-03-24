@@ -40,20 +40,20 @@ const Produtos = () => {
                 NOSSOS SERVIÇOS E PRODUTOS
             </h1>
 
-            <div className="flex-1 h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-6 sm:grid-rows-3 md:grid-rows-2 gap-9 py-8 px-10 md:px-24">
+            <div className="flex-1 h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 grid-rows-6 sm:grid-rows-3 md:grid-rows-2 gap-9 py-8 px-10 md:px-24">
                 {servicos.map((servico, index) => (
                     <div 
                         key={index}
                         className="flex justify-center items-center flex-col bg-GrayCenter rounded-md flex-1 p-6 px-9 min-h-36 transform hover:scale-110 transition-transform duration-800"
                     >
                         <img src={servico.img} alt={servico.titulo} className="w-9 h-9" />
-                        <h1 className="font-bold text-xl my-4">{servico.titulo}</h1>
-                        <p className="text-sm text-TextProd">{servico.descricao}</p>
+                        <h1 className="font-bold text-xl 2xl:text-2xl my-4">{servico.titulo}</h1>
+                        <p className="text-base text-TextProd 2xl:text-lg">{servico.descricao}</p>
                     </div>
                 ))}
             </div>
 
-            <button className="text-sm font-semibold bg-BlueCenter text-white rounded-3xl px-4 py-3 max-w-15 self-center justify-self-center mb-6 shadow-custom transform hover:scale-110 transition-transform duration-800">
+            <button className="text-sm lg:text-lg font-semibold bg-BlueCenter text-white rounded-3xl px-4 py-3 max-w-15 self-center justify-self-center mb-6 shadow-custom transform hover:scale-110 transition-transform duration-800">
                 ENTRE EM CONTATO
             </button>
         </section>

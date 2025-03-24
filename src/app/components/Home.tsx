@@ -1,10 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-
 const Home = () => {
   const data = [
     { id: '1', image: '/img/tarde-de-verao-a-beira-da-piscina.jpg' },
-    { id: '2', image: '/img/tarde-de-verao-a-beira-da-piscina.jpg' },
+    { id: '2', image: '/img/water-3292794_1920.jpg' },
     { id: '3', image: '/img/boias.jpeg' }
   ]
 
@@ -39,7 +38,7 @@ const Home = () => {
                   </p>
 
                   <button
-                  className='text-sm font-semibold bg-BlueCenter text-white px-4 py-3 rounded-3xl mt-5 shadow-custom transform hover:scale-110 transition-transform duration-800'
+                  className='text-sm 2xl:text-lg font-semibold bg-BlueCenter text-white px-4 py-3 rounded-3xl mt-5 shadow-custom transform hover:scale-110 transition-transform duration-800'
                   >ENTRE EM CONTATO
                   </button>
                 </div>
